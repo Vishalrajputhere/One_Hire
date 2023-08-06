@@ -1,0 +1,40 @@
+/* Custom CSS for login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form .form-control {
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  .login-form .btn-primary {
+    margin-top: 20px;
+  }
+  
